@@ -2,4 +2,24 @@ html, body{
   background-color:#faf7f7;
   color:000000;
   font:400 105% sans-serif;
+  padding:0pt 5% 60pt 5%
+}
+
+@media all and (min-width:600px){
+  html, body{padding:0pt 5% 60pt 5%}
+}
+@media all and (min-width:800px){
+  html, body{padding:0pt 10% 60pt 10%}
+}
+@media all and (min-width:1000px){
+	html, body{padding:0pt 15% 60pt 15%}
+}
+@media all and (min-width:1200px){
+	html, body{padding:0pt 20% 60pt 20%}
+}
+@media all and (min-width:1400px){
+	html, body{padding:0pt 25% 60pt 25%}
+}
+@media all and (min-width:1600px){
+	html, body{padding:0pt 30% 60pt 30%}
 }
